@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A743596A1A2D25C100F05790 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A74359691A2D25C100F05790 /* main.m */; };
+		A743596D1A2D25C100F05790 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A743596C1A2D25C100F05790 /* AppDelegate.m */; };
+		A74359701A2D25C100F05790 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A743596F1A2D25C100F05790 /* ViewController.m */; };
+		A74359731A2D25C100F05790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74359711A2D25C100F05790 /* Main.storyboard */; };
+		A74359751A2D25C100F05790 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74359741A2D25C100F05790 /* Images.xcassets */; };
+		A74359781A2D25C100F05790 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74359761A2D25C100F05790 /* LaunchScreen.xib */; };
+		A74359841A2D25C100F05790 /* AMTTimePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A74359831A2D25C100F05790 /* AMTTimePickerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A743597E1A2D25C100F05790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A743595C1A2D25C100F05790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74359631A2D25C100F05790;
+			remoteInfo = AMTTimePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A74359641A2D25C100F05790 /* AMTTimePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMTTimePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74359681A2D25C100F05790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74359691A2D25C100F05790 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A743596B1A2D25C100F05790 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A743596C1A2D25C100F05790 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A743596E1A2D25C100F05790 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A743596F1A2D25C100F05790 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A74359721A2D25C100F05790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A74359741A2D25C100F05790 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A74359771A2D25C100F05790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A743597D1A2D25C100F05790 /* AMTTimePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMTTimePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74359821A2D25C100F05790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74359831A2D25C100F05790 /* AMTTimePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMTTimePickerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A74359611A2D25C100F05790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A743597A1A2D25C100F05790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A743595B1A2D25C100F05790 = {
+			isa = PBXGroup;
+			children = (
+				A74359661A2D25C100F05790 /* AMTTimePicker */,
+				A74359801A2D25C100F05790 /* AMTTimePickerTests */,
+				A74359651A2D25C100F05790 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A74359651A2D25C100F05790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A74359641A2D25C100F05790 /* AMTTimePicker.app */,
+				A743597D1A2D25C100F05790 /* AMTTimePickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A74359661A2D25C100F05790 /* AMTTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A743596B1A2D25C100F05790 /* AppDelegate.h */,
+				A743596C1A2D25C100F05790 /* AppDelegate.m */,
+				A743596E1A2D25C100F05790 /* ViewController.h */,
+				A743596F1A2D25C100F05790 /* ViewController.m */,
+				A74359711A2D25C100F05790 /* Main.storyboard */,
+				A74359741A2D25C100F05790 /* Images.xcassets */,
+				A74359761A2D25C100F05790 /* LaunchScreen.xib */,
+				A74359671A2D25C100F05790 /* Supporting Files */,
+			);
+			path = AMTTimePicker;
+			sourceTree = "<group>";
+		};
+		A74359671A2D25C100F05790 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A74359681A2D25C100F05790 /* Info.plist */,
+				A74359691A2D25C100F05790 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A74359801A2D25C100F05790 /* AMTTimePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A74359831A2D25C100F05790 /* AMTTimePickerTests.m */,
+				A74359811A2D25C100F05790 /* Supporting Files */,
+			);
+			path = AMTTimePickerTests;
+			sourceTree = "<group>";
+		};
+		A74359811A2D25C100F05790 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A74359821A2D25C100F05790 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A74359631A2D25C100F05790 /* AMTTimePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74359871A2D25C100F05790 /* Build configuration list for PBXNativeTarget "AMTTimePicker" */;
+			buildPhases = (
+				A74359601A2D25C100F05790 /* Sources */,
+				A74359611A2D25C100F05790 /* Frameworks */,
+				A74359621A2D25C100F05790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMTTimePicker;
+			productName = AMTTimePicker;
+			productReference = A74359641A2D25C100F05790 /* AMTTimePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A743597C1A2D25C100F05790 /* AMTTimePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A743598A1A2D25C100F05790 /* Build configuration list for PBXNativeTarget "AMTTimePickerTests" */;
+			buildPhases = (
+				A74359791A2D25C100F05790 /* Sources */,
+				A743597A1A2D25C100F05790 /* Frameworks */,
+				A743597B1A2D25C100F05790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A743597F1A2D25C100F05790 /* PBXTargetDependency */,
+			);
+			name = AMTTimePickerTests;
+			productName = AMTTimePickerTests;
+			productReference = A743597D1A2D25C100F05790 /* AMTTimePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A743595C1A2D25C100F05790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Alessandro;
+				TargetAttributes = {
+					A74359631A2D25C100F05790 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A743597C1A2D25C100F05790 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A74359631A2D25C100F05790;
+					};
+				};
+			};
+			buildConfigurationList = A743595F1A2D25C100F05790 /* Build configuration list for PBXProject "AMTTimePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A743595B1A2D25C100F05790;
+			productRefGroup = A74359651A2D25C100F05790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A74359631A2D25C100F05790 /* AMTTimePicker */,
+				A743597C1A2D25C100F05790 /* AMTTimePickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A74359621A2D25C100F05790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74359731A2D25C100F05790 /* Main.storyboard in Resources */,
+				A74359781A2D25C100F05790 /* LaunchScreen.xib in Resources */,
+				A74359751A2D25C100F05790 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A743597B1A2D25C100F05790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A74359601A2D25C100F05790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74359701A2D25C100F05790 /* ViewController.m in Sources */,
+				A743596D1A2D25C100F05790 /* AppDelegate.m in Sources */,
+				A743596A1A2D25C100F05790 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74359791A2D25C100F05790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74359841A2D25C100F05790 /* AMTTimePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A743597F1A2D25C100F05790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74359631A2D25C100F05790 /* AMTTimePicker */;
+			targetProxy = A743597E1A2D25C100F05790 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A74359711A2D25C100F05790 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74359721A2D25C100F05790 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A74359761A2D25C100F05790 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74359771A2D25C100F05790 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A74359851A2D25C100F05790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A74359861A2D25C100F05790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A74359881A2D25C100F05790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AMTTimePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A74359891A2D25C100F05790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AMTTimePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A743598B1A2D25C100F05790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AMTTimePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMTTimePicker.app/AMTTimePicker";
+			};
+			name = Debug;
+		};
+		A743598C1A2D25C100F05790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AMTTimePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMTTimePicker.app/AMTTimePicker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A743595F1A2D25C100F05790 /* Build configuration list for PBXProject "AMTTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74359851A2D25C100F05790 /* Debug */,
+				A74359861A2D25C100F05790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74359871A2D25C100F05790 /* Build configuration list for PBXNativeTarget "AMTTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74359881A2D25C100F05790 /* Debug */,
+				A74359891A2D25C100F05790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A743598A1A2D25C100F05790 /* Build configuration list for PBXNativeTarget "AMTTimePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A743598B1A2D25C100F05790 /* Debug */,
+				A743598C1A2D25C100F05790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A743595C1A2D25C100F05790 /* Project object */;
+}
