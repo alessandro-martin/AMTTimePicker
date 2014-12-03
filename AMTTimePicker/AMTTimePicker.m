@@ -58,7 +58,28 @@ static NSUInteger	const maxNumberOfMinutes = 59;
 	return self;
 }
 
-#pragma mark - Data
+#pragma mark - Data and Utility
+
+- (void) setTimeInterval:(NSTimeInterval)timeInterval {
+	if (timeInterval <= [self maxPossibleTimeInterval]) {
+		int seconds = (int) timeInterval;
+		int minutes = seconds / 60;
+		int hours = minutes / 60;
+		minutes = minutes % 60;
+		int days = hours / 24;
+		hours = hours % 24;
+		[self selectRow:days + 1 inComponent:0 animated:YES];
+		[self selectRow:hours + 1 inComponent:1 animated:YES];
+		[self selectRow:minutes + 1 inComponent:2 animated:YES];
+		[self reloadAllComponents];
+	}
+}
+
+- (NSTimeInterval)maxPossibleTimeInterval {
+	return	(self.maxNumberOfDays * 24 * 60 * 60) +
+			(maxNumberOfHours * 60 * 60) +
+			(maxNumberOfMinutes * 60);
+}
 
 - (NSArray *)pickerData {
 	if (!_pickerData) {

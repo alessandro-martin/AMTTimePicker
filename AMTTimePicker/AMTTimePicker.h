@@ -14,5 +14,6 @@
 
 // Designated initializer
 - (instancetype)initWithMaxDays:(NSUInteger)days;
+- (void) setTimeInterval:(NSTimeInterval)timeInterval;
 
 @end

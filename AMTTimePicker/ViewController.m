@@ -16,6 +16,9 @@
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
 }
+- (IBAction)setTimePickerInterval:(id)sender {
+	[self.timePicker setTimeInterval:1251000]; // Magic number, sorry! 14d 11h 30m
+}
 
 - (void) amtTimePicker:(__unused AMTTimePicker *)picker
 		 didSelectTime:(NSTimeInterval)timeInterval{

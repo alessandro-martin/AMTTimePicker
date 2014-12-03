@@ -17,28 +17,40 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="isW-gX-UA5" customClass="AMTTimePicker">
-                                <rect key="frame" x="140" y="100.5" width="320" height="216"/>
+                                <rect key="frame" x="140" y="100" width="320" height="216"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="YK6-DY-Wey"/>
                                 </connections>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spin the Wheels!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSZ-IA-4ir">
-                                <rect key="frame" x="140" y="389.5" width="320" height="20.5"/>
+                                <rect key="frame" x="140" y="389" width="320" height="21"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pid-jh-use">
+                                <rect key="frame" x="251" y="417" width="99" height="30"/>
+                                <state key="normal" title="1,251,000 Sec">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="setTimePickerInterval:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aFZ-FT-Z9m"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="CSZ-IA-4ir" firstAttribute="width" secondItem="isW-gX-UA5" secondAttribute="width" id="Bwd-aw-JfF"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CSZ-IA-4ir" secondAttribute="bottom" constant="190" id="C2b-qw-WMp"/>
+                            <constraint firstAttribute="centerX" secondItem="pid-jh-use" secondAttribute="centerX" id="C6O-F5-UjP"/>
                             <constraint firstAttribute="centerX" secondItem="CSZ-IA-4ir" secondAttribute="centerX" id="I0X-OL-QBe"/>
                             <constraint firstItem="isW-gX-UA5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="XVX-xo-iyf"/>
                             <constraint firstItem="CSZ-IA-4ir" firstAttribute="top" secondItem="isW-gX-UA5" secondAttribute="bottom" constant="8" id="aRK-D8-3eY"/>
                             <constraint firstAttribute="centerY" secondItem="isW-gX-UA5" secondAttribute="centerY" id="cmI-jW-OVg"/>
                             <constraint firstAttribute="centerX" secondItem="isW-gX-UA5" secondAttribute="centerX" id="doD-I9-jHB"/>
+                            <constraint firstItem="pid-jh-use" firstAttribute="top" secondItem="CSZ-IA-4ir" secondAttribute="bottom" constant="7" id="mC8-Tf-KZ3"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
