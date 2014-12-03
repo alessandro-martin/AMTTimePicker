@@ -14,6 +14,7 @@
 		A74359751A2D25C100F05790 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74359741A2D25C100F05790 /* Images.xcassets */; };
 		A74359781A2D25C100F05790 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74359761A2D25C100F05790 /* LaunchScreen.xib */; };
 		A74359841A2D25C100F05790 /* AMTTimePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A74359831A2D25C100F05790 /* AMTTimePickerTests.m */; };
+		A743598F1A2D2DAD00F05790 /* AMTTimePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A743598E1A2D2DAD00F05790 /* AMTTimePicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A743597D1A2D25C100F05790 /* AMTTimePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMTTimePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74359821A2D25C100F05790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A74359831A2D25C100F05790 /* AMTTimePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMTTimePickerTests.m; sourceTree = "<group>"; };
+		A743598D1A2D2DAD00F05790 /* AMTTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMTTimePicker.h; sourceTree = "<group>"; };
+		A743598E1A2D2DAD00F05790 /* AMTTimePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMTTimePicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				A74359741A2D25C100F05790 /* Images.xcassets */,
 				A74359761A2D25C100F05790 /* LaunchScreen.xib */,
 				A74359671A2D25C100F05790 /* Supporting Files */,
+				A743598D1A2D2DAD00F05790 /* AMTTimePicker.h */,
+				A743598E1A2D2DAD00F05790 /* AMTTimePicker.m */,
 			);
 			path = AMTTimePicker;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A74359701A2D25C100F05790 /* ViewController.m in Sources */,
+				A743598F1A2D2DAD00F05790 /* AMTTimePicker.m in Sources */,
 				A743596D1A2D25C100F05790 /* AppDelegate.m in Sources */,
 				A743596A1A2D25C100F05790 /* main.m in Sources */,
 			);
@@ -348,6 +354,7 @@
 				INFOPLIST_FILE = AMTTimePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -358,6 +365,7 @@
 				INFOPLIST_FILE = AMTTimePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -414,6 +422,7 @@
 				A74359891A2D25C100F05790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A743598A1A2D25C100F05790 /* Build configuration list for PBXNativeTarget "AMTTimePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				A743598C1A2D25C100F05790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,8 +15,41 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="isW-gX-UA5" customClass="AMTTimePicker">
+                                <rect key="frame" x="140" y="100.5" width="320" height="216"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="YK6-DY-Wey"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spin the Wheels!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CSZ-IA-4ir">
+                                <rect key="frame" x="140" y="389.5" width="320" height="20.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CSZ-IA-4ir" firstAttribute="width" secondItem="isW-gX-UA5" secondAttribute="width" id="Bwd-aw-JfF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CSZ-IA-4ir" secondAttribute="bottom" constant="190" id="C2b-qw-WMp"/>
+                            <constraint firstAttribute="centerX" secondItem="CSZ-IA-4ir" secondAttribute="centerX" id="I0X-OL-QBe"/>
+                            <constraint firstItem="isW-gX-UA5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="XVX-xo-iyf"/>
+                            <constraint firstItem="CSZ-IA-4ir" firstAttribute="top" secondItem="isW-gX-UA5" secondAttribute="bottom" constant="8" id="aRK-D8-3eY"/>
+                            <constraint firstAttribute="centerY" secondItem="isW-gX-UA5" secondAttribute="centerY" id="cmI-jW-OVg"/>
+                            <constraint firstAttribute="centerX" secondItem="isW-gX-UA5" secondAttribute="centerX" id="doD-I9-jHB"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="cmI-jW-OVg"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="timeLabel" destination="CSZ-IA-4ir" id="N9A-Ct-zfx"/>
+                        <outlet property="timePicker" destination="isW-gX-UA5" id="qEJ-t1-iM3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

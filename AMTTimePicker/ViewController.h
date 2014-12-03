@@ -1,14 +1,7 @@
-//
-//  ViewController.h
-//  AMTTimePicker
-//
-//  Created by Alessandro on 01/12/14.
-//  Copyright (c) 2014 Alessandro. All rights reserved.
-//
+@import UIKit;
+#import "AMTTimePicker.h"
 
-#import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <AMTTimePickerDelegate>
 
 
 @end

@@ -1,14 +1,9 @@
-//
-//  ViewController.m
-//  AMTTimePicker
-//
-//  Created by Alessandro on 01/12/14.
-//  Copyright (c) 2014 Alessandro. All rights reserved.
-//
-
 #import "ViewController.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet AMTTimePicker *timePicker;
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
 
 @end
 
@@ -16,12 +11,14 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
-	// Dispose of any resources that can be recreated.
 }
 
+- (void) amtTimePicker:(__unused AMTTimePicker *)picker
+		 didSelectTime:(NSTimeInterval)timeInterval{
+	self.timeLabel.text = [NSString stringWithFormat:@"Time Interval: %.0f seconds", timeInterval];
+}
 @end
