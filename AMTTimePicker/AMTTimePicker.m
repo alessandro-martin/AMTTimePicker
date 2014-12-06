@@ -144,10 +144,25 @@ numberOfRowsInComponent:(NSInteger)component {
 
 #pragma mark - UIPickerViewDelegate Methods
 
--(NSString *)pickerView:(UIPickerView *)pickerView
-			titleForRow:(NSInteger)row
-		   forComponent:(NSInteger)component{
-	return [NSString stringWithFormat:@"%@", self.pickerData[component][row]];
+//-(NSString *)pickerView:(UIPickerView *)pickerView
+//			titleForRow:(NSInteger)row
+//		   forComponent:(NSInteger)component{
+//	return [NSString stringWithFormat:@"%@", self.pickerData[component][row]];
+//}
+
+- (NSAttributedString *)pickerView:(UIPickerView *)pickerView
+			 attributedTitleForRow:(NSInteger)row
+					  forComponent:(NSInteger)component {
+	UIFont *font = [UIFont fontWithName:@"Helvetica"
+								   size:14.0];
+	NSDictionary *attributedStringDictionary = @{
+												 NSFontAttributeName : font
+												 };
+	NSAttributedString *attrString =
+	[[NSAttributedString alloc] initWithString:[NSString stringWithFormat:@"%@", self.pickerData[component][row]]
+									attributes:attributedStringDictionary];
+	
+	return attrString;
 }
 
 - (void)pickerView:(UIPickerView *)pickerView
